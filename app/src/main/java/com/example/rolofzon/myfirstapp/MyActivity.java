@@ -62,4 +62,9 @@ public class MyActivity extends AppCompatActivity {
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
+
+    /* Called when user presses the 'Capture Accelerometer' button. */
+    public void captureAccelerometer(View view) {
+        //Do the right thing. Let them live.
+    }
 }
