@@ -60,9 +60,9 @@ public class AccelerometerActivity extends AppCompatActivity implements SensorEv
     }
 
     public void onSensorChanged(SensorEvent event) {
-        TextView textView = new TextView(this);
-        textView.setTextSize(20);
-        textView.setText("x: " + Float.toString(event.values[0]) + ", y: " + Float.toString(event.values[1])
+        //TextView textView = new TextView(this);
+        //textView.setTextSize(20);
+        accValues.setText("x: " + Float.toString(event.values[0]) + ", y: " + Float.toString(event.values[1])
                 + ", z: " + Float.toString(event.values[2]));
 
         /* accelerometer values reached by event.values[0:2] (0x, 1y, 2z)*/
