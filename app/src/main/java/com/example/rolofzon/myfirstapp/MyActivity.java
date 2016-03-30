@@ -65,6 +65,7 @@ public class MyActivity extends AppCompatActivity {
 
     /* Called when user presses the 'Capture Accelerometer' button. */
     public void captureAccelerometer(View view) {
-        //Do the right thing. Let them live.
+        Intent intent = new Intent(this, AccelerometerActivity.class);
+        startActivity(intent);
     }
 }
