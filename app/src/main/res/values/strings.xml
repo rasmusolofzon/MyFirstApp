@@ -6,4 +6,6 @@
     <string name="button_accelerometer_activity">Check Accelerometer</string>
     <string name="title_activity_display_message">My Message</string>
     <string name="title_activity_accelerometer">Display Accelerometer Values</string>
+    <string name="button_compass_activity">Start Compass</string>
+    <string name="title_activity_compass">CompassActivity</string>
 </resources>

@@ -24,11 +24,20 @@
         android:onClick="sendMessage" />
 
     <Button
+        android:id="@+id/accButton"
         android:layout_below="@id/edit_message"
-        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_accelerometer_activity"
         android:onClick="captureAccelerometer" />
+    
+    <Button
+        android:layout_below="@id/accButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_compass_activity"
+        android:onClick="compassActivity"/>
 
 </RelativeLayout>

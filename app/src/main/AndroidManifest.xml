@@ -30,7 +30,16 @@
         <activity
             android:name=".AccelerometerActivity"
             android:label="@string/title_activity_accelerometer"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CompassActivity"
+            android:label="@string/title_activity_compass"
+            android:parentActivityName=".MyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rolofzon.myfirstapp.MyActivity" />
+        </activity>
     </application>
 
 </manifest>
